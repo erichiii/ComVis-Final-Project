@@ -14,8 +14,7 @@ void display() { //placeholder
 }
 int main(int argc, char** argv) {
 	glutInit(&argc, argv); 
-	glutInitWindowSize(600, 600);
-	glutInitWindowPosition(100, 100);
+	glutInitWindowSize(1920, 1080);
 	glutCreateWindow("Playground Scene"); 
 	glutDisplayFunc(display); 
 	glutMainLoop(); 
