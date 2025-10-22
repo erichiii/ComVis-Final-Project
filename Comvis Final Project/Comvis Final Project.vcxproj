@@ -71,8 +71,13 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+<<<<<<< HEAD
     <IncludePath>C:\Users\mbsantos\Downloads\freeglut-MSVC-3.0.0-2.mp\freeglut\include;C:\FreeGLUT\freeglut\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\mbsantos\Downloads\freeglut-MSVC-3.0.0-2.mp\freeglut\lib\x64;C:\FreeGLUT\freeglut\lib\x64;$(LibraryPath)</LibraryPath>
+=======
+    <IncludePath>C:\Users\otaku\Documents\Visual Studio 2022\freeglut-MSVC-3.0.0-2.mp\freeglut\include;C:\FreeGLUT\freeglut\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\otaku\Documents\Visual Studio 2022\freeglut-MSVC-3.0.0-2.mp\freeglut\lib\x64;C:\FreeGLUT\freeglut\lib\x64;$(LibraryPath)</LibraryPath>
+>>>>>>> c86d528ce3c83c3f100841fc755982f12cc45fef
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
